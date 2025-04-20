@@ -1,0 +1,8 @@
+.main-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; /* Opcional, para separación entre tarjetas */
+    padding: 2rem;
+  }
+  

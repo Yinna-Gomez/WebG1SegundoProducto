@@ -1,0 +1,12 @@
+.detail-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .detail-container img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+  }
+  

@@ -1,0 +1,17 @@
+nav ul {
+    display: flex;
+    background-color: rgb(255, 132, 0);
+    padding: 10px;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+nav ul .item {
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}

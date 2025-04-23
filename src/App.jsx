@@ -12,7 +12,7 @@ import FilterPage from './Pages/FilterPage/FilterPage'
 import AcercaDe from './Pages/AcerdaDe/AcercaDe'
 
 const App = () => {
-  
+
   return (
     <>
       <Header />
@@ -21,8 +21,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/filter/:genero" element={<FilterPage />} />
-          <Route path="/acercade" element={<AcercaDe />} />
           <Route path="/details/:id" element={<DetailsPage />} />
+          <Route path="/acercade" element={<AcercaDe />} />
           <Route path='*' element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>

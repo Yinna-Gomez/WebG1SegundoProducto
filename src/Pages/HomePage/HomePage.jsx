@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import CardCharacter from "../../Components/CardCharacter/CardCharacter";
 import PaginationC from "../../Components/PaginationC/PaginationC";
+import { Link } from 'react-router-dom';
 
 const itemsPerPage = 10;
 
@@ -23,8 +24,11 @@ const HomePage = () => {
     <>
       <main>
         {characters.map((char) => (
-          <CardCharacter key={char.id} character={char} />
+          <Link to={`/details/${char.id}`} key={char.id} style={{ textDecoration: 'none' }}>
+            <CardCharacter character={char} />
+          </Link>
         ))}
+
       </main>
       <PaginationC
         count={totalPages}

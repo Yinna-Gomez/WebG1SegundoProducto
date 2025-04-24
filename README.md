@@ -28,17 +28,17 @@ Una página desarrollada en React para visualizar personajes con sistema de filt
 ## Capturas
 
 ### Página principal (Home)
-![Home](src/assets/screenshot-home.png)
+![Home](src/assets/screenshot-home.PNG)
 
 ### Filtro por género
-![Filtro](src/assets/screenshot-filter.png)
+![Filtro](src/assets/screenshot-filter.PNG)
 
 ### Detalle de personaje
-![Detalle](src/assets/screenshot-detail1.png)
-![Detalle](src/assets/screenshot-detail2.png)
+![Detalle](src/assets/screenshot-detail1.PNG)
+![Detalle](src/assets/screenshot-filter2.png)
 
 ### Página de error
-![Error](src/assets/screenshot-error.png)
+![Error](src/assets/screenshot-error.PNG)
 
 ---
 

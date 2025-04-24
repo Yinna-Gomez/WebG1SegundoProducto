@@ -35,7 +35,7 @@ Una página desarrollada en React para visualizar personajes con sistema de filt
 
 ### Detalle de personaje
 ![Detalle](src/assets/screenshot-detail1.PNG)
-![Detalle](src/assets/screenshot-filter2.png)
+![Detalle](src/assets/screenshot-detail2.png)
 
 ### Página de error
 ![Error](src/assets/screenshot-error.PNG)

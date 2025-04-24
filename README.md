@@ -43,6 +43,7 @@ Una página desarrollada en React para visualizar personajes con sistema de filt
 ---
 
 ## Estructura del proyecto
+```bash
 src/
 ├── assets/
 ├── Components/
@@ -61,17 +62,19 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── App.css
-
+```
 ## Instalación Local
 
 ### 1. Clona este repositorio
 https://github.com/Yinna-Gomez/WebG1SegundoProducto.git
+
+### 2. Ingresar a la carpeta
 cd WebG1SegundoProducto
 
-### 2. Instala las dependencias:
+### 3. Instala las dependencias:
 npm install
 
-### 3. Ejecuta el servidor local
+### 4. Ejecuta el servidor local
 npm run dev
 
 ## Autores

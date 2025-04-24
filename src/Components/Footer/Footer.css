@@ -1,9 +1,31 @@
-footer{
-    height: 100px;
-    width: 100%;
+
+
+.footer {
     background-color: rgb(28, 3, 67);
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #ff9800;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  }
+  

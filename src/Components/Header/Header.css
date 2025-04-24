@@ -6,8 +6,27 @@ header {
     background-color: rgb(28, 3, 67);
 }
 
+.logo {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    text-align: center;
+}
+
+/* Responsivo: ajustar tamaños en pantallas pequeñas */
+@media (max-width: 600px) {
+    .logo {
+        max-width: 250px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
 }

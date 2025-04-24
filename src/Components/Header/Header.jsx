@@ -1,9 +1,11 @@
 import "./Header.css";
+import LogoDragonBall from "../../assets/logo2.png";
 
 const Header = () => {
   return (
     <header>
-        <h1>Dragon Ball Z</h1>
+      <img src={LogoDragonBall} alt="Logo Dragon Ball Z" className="logo" />
+      <h1>API PERSONAJES</h1>
 
     </header>
   )

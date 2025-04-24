@@ -28,17 +28,17 @@ Una página desarrollada en React para visualizar personajes con sistema de filt
 ## Capturas
 
 ### Página principal (Home)
-![Home](./src/assets/screenshot-home.png)
+![Home](src/assets/screenshot-home.png)
 
 ### Filtro por género
-![Filtro](./src/assets/screenshot-filter.png)
+![Filtro](src/assets/screenshot-filter.png)
 
 ### Detalle de personaje
-![Detalle](./src/assets/screenshot-detail1.png)
-![Detalle](./src/assets/screenshot-detail2.png)
+![Detalle](src/assets/screenshot-detail1.png)
+![Detalle](src/assets/screenshot-detail2.png)
 
 ### Página de error
-![Error](./src/assets/screenshot-error.png)
+![Error](src/assets/screenshot-error.png)
 
 ---
 
@@ -65,16 +65,16 @@ src/
 ```
 ## Instalación Local
 
-### 1. Clona este repositorio
+### 1. Clonar este repositorio
 https://github.com/Yinna-Gomez/WebG1SegundoProducto.git
 
 ### 2. Ingresar a la carpeta
 cd WebG1SegundoProducto
 
-### 3. Instala las dependencias:
+### 3. Instalar las dependencias:
 npm install
 
-### 4. Ejecuta el servidor local
+### 4. Ejecutar el servidor local
 npm run dev
 
 ## Autores
